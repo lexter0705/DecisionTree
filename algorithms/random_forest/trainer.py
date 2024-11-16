@@ -1,10 +1,10 @@
 from numpy import ndarray
 from algorithms.random_forest.model import RandomForest
-from base.metrics import Metrics
-from base.trainer import ModelTrainer
+from metrics.abstract_metrics import Metrics
+from algorithms.abstract_model.trainer import ModelTrainer
 
 
-class RandomForestCreator(ModelTrainer):
+class RandomForestTrainer(ModelTrainer):
     def __init__(self):
         pass
 

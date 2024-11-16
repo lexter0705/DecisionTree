@@ -1,10 +1,10 @@
 from numpy import ndarray
 from algorithms.k_means.model import KMeans
-from base.metrics import Metrics
-from base.trainer import ModelTrainer
+from metrics.abstract_metrics import Metrics
+from algorithms.abstract_model.trainer import ModelTrainer
 
 
-class KMeansCreator(ModelTrainer):
+class KMeansTrainer(ModelTrainer):
     def __init__(self):
         pass
 

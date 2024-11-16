@@ -1,5 +1,5 @@
 from numpy import ndarray
-from base.model import Model
+from algorithms.abstract_model.model import Model
 
 
 class KMeans(Model):

@@ -1,6 +1,6 @@
 from numpy import ndarray
-from base.model import Model
-from node import DecisionTreeNode
+from algorithms.abstract_model.model import Model
+from algorithms.decision_tree.additional_modules.node import DecisionTreeNode
 import numpy as np
 
 

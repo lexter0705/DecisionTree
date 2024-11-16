@@ -1,7 +1,7 @@
 from numpy import ndarray
 from algorithms.regression.model import Regression
-from base.metrics import Metrics
-from base.trainer import ModelTrainer
+from metrics.abstract_metrics import Metrics
+from algorithms.abstract_model.trainer import ModelTrainer
 
 
 class RegressionTrainer(ModelTrainer):

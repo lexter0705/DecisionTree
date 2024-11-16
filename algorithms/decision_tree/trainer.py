@@ -1,10 +1,10 @@
 from numpy import ndarray
 from algorithms.decision_tree.model import DecisionTree
-from base.metrics import Metrics
-from base.trainer import ModelTrainer
+from metrics.abstract_metrics import Metrics
+from algorithms.abstract_model.trainer import ModelTrainer
 
 
-class DecisionTreeCreator(ModelTrainer):
+class DecisionTreeTrainer(ModelTrainer):
     def __init__(self):
         pass
 
