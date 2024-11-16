@@ -1,9 +1,10 @@
+from numpy import ndarray
+from base.model import Model
 from node import DecisionTreeNode
 import numpy as np
-import pandas as pd
 
 
-class DecisionTree:
+class DecisionTree(Model):
     def __init__(self, tree: list[DecisionTreeNode, int]):
         self.__tree = tree
 
@@ -12,5 +13,5 @@ class DecisionTree:
         for i in self.__tree:
             pass
 
-    def classify(self, dataset_for_classify: pd.DataFrame | np.ndarray) -> np.ndarray:
+    def predict(self, x: ndarray) -> ndarray:
         pass
